@@ -18,7 +18,7 @@ def agregar_evento():
     else:
         messagebox.showwarning("Advertencia", "Por favor, complete todos los campos.")
 
-# Función para eliminar evento seleccionadO
+# Función para eliminar evento seleccionado
 def eliminar_evento():
     selected_item = tree.selection()
     if selected_item:
@@ -45,7 +45,7 @@ tree.heading("Hora", text="Hora")
 tree.heading("Descripción", text="Descripción")
 tree.pack()
 
-# Frame para afregar eventos
+# Frame para agregar eventos
 frame_agregar = tk.Frame(root)
 frame_agregar.pack(pady=10)
 
